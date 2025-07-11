@@ -6,39 +6,89 @@
   <title>Synaptech - Asistente Virtual en WhatsApp</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      color: #333;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f8fb;
+      color: #103a5e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
       padding: 2rem;
-      max-width: 700px;
-      margin: auto;
     }
+
+    header {
+      background-color: #103a5e;
+      color: white;
+      width: 100%;
+      padding: 1rem 0;
+    }
+
+    .logo {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin-top: 2rem;
+    }
+
     h1 {
-      color: #0066cc;
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
     }
-    a {
-      color: #0077ee;
-      text-decoration: none;
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
     }
+
     .boton {
       display: inline-block;
-      padding: 10px 20px;
-      background: #25D366;
+      margin-top: 1.5rem;
+      padding: 12px 25px;
+      background-color: #25D366;
       color: white;
-      border-radius: 5px;
-      margin-top: 15px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .boton:hover {
+      background-color: #1cb655;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <h1>Synaptech</h1>
-  <p><strong>Asistente Virtual en WhatsApp para Consultorios Psicológicos y Negocios</strong></p>
-  <p>Automatizamos la gestión de citas, preguntas frecuentes, modificación y cancelación de citas, con integración a Google Calendar.</p>
+  <header>
+    <img src="assets/logo.png" alt="Logo Synaptech" class="logo">
+    <h1>JSynaptech</h1>
+  </header>
 
-  <h2>Contacto</h2>
-  <p><strong>WhatsApp:</strong> <a href="https://wa.me/5212227724413" target="_blank">+52 1 222 772 4413</a></p>
-  <p><strong>Email:</strong> juarezromerojuan09@gmail.com</p>
+  <main>
+    <p><strong>Asistente Virtual en WhatsApp para Consultorios Psicológicos y Negocios.</strong></p>
+    <p>Automatizamos la gestión de citas, preguntas frecuentes, modificación y cancelación de citas, con integración a Google Calendar.</p>
 
-  <a class="boton" href="https://wa.me/5212227724413" target="_blank">Contactar por WhatsApp</a>
+    <h2>Contacto</h2>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5212227724413" target="_blank">+52 1 222 772 4413</a></p>
+    <p><strong>Email:</strong> juarezromerojuan09@jsynaptech.com</p>
+
+    <a class="boton" href="https://wa.me/5212227724413" target="_blank">Contactar por WhatsApp</a>
+  </main>
+
+  <footer>
+    &copy; 2025 JSynaptech. Todos los derechos reservados.
+  </footer>
 </body>
 </html>
+
