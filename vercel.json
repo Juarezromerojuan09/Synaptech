@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/synapbot/:path*",
+      "destination": "https://frontendweb-ashy.vercel.app/:path*"
+    }
+  ]
+}
